@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Football Score Keeper</string>
+    <string name="offense">OFFENSE SCORING</string>
+    <string name="defense">DEFENSE SCORING</string>
+    <string name="pass">PASS</string>
+    <string name="rec">REC</string>
+    <string name="rush">RUSH</string>
+    <string name="rush_yd">RUSHING YARDS</string>
+    <string name="rec_yd">RECEIVING YARDS</string>
+    <string name="pass_yd">PASSING YARDS</string>
+    <string name="rush_short">RUSH</string>
+    <string name="rec_short">REC</string>
+    <string name="pass_short">PASS</string>
+    <dimen name="small_font">8sp</dimen>
+    <dimen name="small_med_font">10sp</dimen>
+    <dimen name="medium_font">16sp</dimen>
+    <dimen name="large_font">24sp</dimen>
+    <dimen name="small_padding">2dp</dimen>
+    <dimen name="small_med_padding">6dp</dimen>
+    <dimen name="med_medium_padding">10dp</dimen>
+    <dimen name="medium_padding">12dp</dimen>
+    <string-array name="football_teams">
+        <item>Choose Your Team</item>
+        <item>Arizona Cardinals</item>
+        <item>Atlanta Falcons</item>
+        <item>Baltimore Ravens</item>
+        <item>Buffalo Bills</item>
+        <item>Carolina Panthers</item>
+        <item>Chicago Bears</item>
+        <item>Cincinnati Bengals</item>
+        <item>Cleveland Browns</item>
+        <item>Dallas Cowboys</item>
+        <item>Denver Broncos</item>
+        <item>Detroit Lions</item>
+        <item>Green Bay Packers</item>
+        <item>Houston Texans</item>
+        <item>Indianapolis Colts</item>
+        <item>Jacksonville Jaguars</item>
+        <item>Kansas City Chiefs</item>
+        <item>Los Angeles Chargers</item>
+        <item>Los Angeles Rams</item>
+        <item>Miami Dolphins</item>
+        <item>Minnesota Vikings</item>
+        <item>New England Patriots</item>
+        <item>New Orleans Saints</item>
+        <item>New York Giants</item>
+        <item>New York Jets</item>
+        <item>Oakland Raiders</item>
+        <item>Philadelphia Eagles</item>
+        <item>Pittsburgh Steelers</item>
+        <item>San Francisco 49ers</item>
+        <item>Seattle Seahawks</item>
+        <item>Tampa Bay Buccaneers</item>
+        <item>Tennessee Titans</item>
+        <item>Washington Redskins</item>
+    </string-array>
+</resources>
