@@ -52,7 +52,7 @@
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="70dp"
-            android:textSize="@dimen/large_font"
+            android:textSize="@dimen/xtra_large_font"
             android:text="0"
             />
         <ImageView
@@ -71,81 +71,283 @@
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="70dp"
-            android:textSize="@dimen/large_font"
+            android:textSize="@dimen/xtra_large_font"
             android:text="0"
             />
     </LinearLayout>
 
+    <!--TEAM STARTING QUARTERBACKS AND STAT REGISTER-->
+    <LinearLayout
+        android:id="@+id/qb_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_marginRight="@dimen/small_padding"
+        android:background="#66999999">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_med_padding"
+            android:layout_gravity="center_vertical"
+            android:text="Starting Quarterback:"
+            android:textSize="@dimen/small_med_font"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/team_one_passing_player_name"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/small_padding"
+            android:layout_gravity="center_vertical"
+            android:text="Player name"
+            android:textColor="#000000"
+            android:textSize="@dimen/small_med_font"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_med_padding"
+            android:layout_gravity="center_vertical"
+            android:text="Starting Quarterback:"
+            android:textSize="@dimen/small_med_font"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/team_two_passing_player_name"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Player name"
+            android:textColor="#000000"
+            android:textSize="@dimen/small_med_font"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_marginRight="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/small_padding"
+        android:background="#66999999">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Attempts: "
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:id="@+id/team_one_qb_attempts_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Completions: "
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:id="@+id/team_one_qb_comp_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Interceptions:"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:id="@+id/team_one_intercept_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Attempts: "
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:id="@+id/team_two_qb_attempts_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Completions: "
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:id="@+id/team_two_qb_comp_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Interceptions:"
+            android:textSize="@dimen/small_font"/>
+        <TextView
+            android:id="@+id/team_two_intercept_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/small_font"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_med_padding"
+            android:text="Team Stats"
+            android:textSize="@dimen/small_med_font"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_med_padding"
+            android:text="Team Stats"
+            android:textSize="@dimen/small_med_font"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
     <!--TEAM ONE AND TWO YARDAGE HEADER LINES ** HORIZONTAL-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_marginRight="@dimen/small_padding"
+        android:background="#66999999">
         <TextView
             android:layout_gravity="center_horizontal"
             android:id="@+id/team_one_passing"
             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="@string/fumble"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/team_one_fumble_count"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:textSize="@dimen/small_med_font"
-            android:text="@string/pass"
+            android:textSize="@dimen/small_font"
+            android:text="0"
             />
         <TextView
             android:layout_gravity="center_horizontal"
             android:id="@+id/team_one_recieving"
             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="@string/rec"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/team_one_rec_score"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:textSize="@dimen/small_med_font"
-            android:text="@string/rec"
+            android:textSize="@dimen/small_font"
+            android:text="0"
             />
         <TextView
             android:layout_gravity="center_horizontal"
             android:id="@+id/team_one_rushing"
             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="@string/rush"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/team_one_rush_score"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:textSize="@dimen/small_med_font"
-            android:text="@string/rush"
+            android:textSize="@dimen/small_font"
+            android:text="0"
             />
         <TextView
             android:layout_gravity="center_horizontal"
             android:id="@+id/team_two_passing"
             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="@string/fumble"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/team_two_fumble_count"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:textSize="@dimen/small_med_font"
-            android:text="@string/pass"
+            android:textSize="@dimen/small_font"
+            android:text="0"
             />
         <TextView
             android:layout_gravity="center_horizontal"
             android:id="@+id/team_two_recieving"
             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="@string/rec"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/team_two_rec_score"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:textSize="@dimen/small_med_font"
-            android:text="@string/rec"
+            android:textSize="@dimen/small_font"
+            android:text="0"
             />
         <TextView
             android:layout_gravity="center_horizontal"
             android:id="@+id/team_two_rushing"
             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="@string/rush"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/team_two_rush_score"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:textSize="@dimen/small_med_font"
-            android:text="@string/rush"
+            android:textSize="@dimen/small_font"
+            android:text="0"
             />
     </LinearLayout>
 
@@ -153,73 +355,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/team_one_pass_score"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/small_med_font"
-            android:text="0"
-            />
-        <TextView
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/team_one_rec_score"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/small_med_font"
-            android:text="0"
-            />
-        <TextView
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/team_one_rush_score"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/small_med_font"
-            android:text="0"
-            />
-        <TextView
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/team_two_pass_score"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/small_med_font"
-            android:text="0"
-            />
-        <TextView
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/team_two_rec_score"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="@dimen/small_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/small_med_font"
-            android:text="0"
-            />
-        <TextView
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/team_two_rush_score"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="@dimen/small_med_padding"
-            android:paddingRight="@dimen/small_padding"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/small_med_font"
-            android:text="0"
-            />
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/small_med_padding">
     </LinearLayout>
 
     <!--TEAM ONE AND TWO OFFENSE / DEFENSE SLIDERS ** HORIZONTAL-->
@@ -246,10 +383,10 @@
         <!--TEAM ONE BUTTONS ** VERTICAL-->
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_weight="3"
-            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_height="125dp"
             android:orientation="vertical">
-                        <Button
+            <Button
                 android:id="@+id/team_one_off_td"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
@@ -297,8 +434,8 @@
         <!--TEAM TWO BUTTONS ** VERTICAL-->
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_weight="3"
-            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_height="125dp"
             android:orientation="vertical">
             <Button
                 android:id="@+id/team_two_off_td"
@@ -335,101 +472,148 @@
         </LinearLayout>
     </LinearLayout>
 
-    <!--YARDAGE ADDITIONS FOR PASSING ** HORIZONTAL-->
-    <LinearLayout
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="@dimen/small_med_padding"
+        android:background="#FFFFFF">
+    </View>
+    <!--BUTTONS FOR PASSING STATISTICS-->
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/pass_short"
-            android:layout_marginLeft="@dimen/small_padding"
-            android:layout_marginRight="@dimen/small_padding"
-            android:textAllCaps="true"
-            android:textSize="@dimen/small_med_font"
-            android:layout_weight="1"
-            android:background="#22999999"
-            android:gravity="center"/>
+        android:gravity="center_horizontal"
+        android:text="@string/pass_yd"
+        android:textSize="@dimen/med_large_font"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
         <Button
-            android:id="@+id/team_one_qb_minus"
+            android:id="@+id/team_one_qb_complete"
             android:layout_width="0dp"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="-1"
             android:textSize="@dimen/small_font"
-            android:layout_weight="1"
-            android:onClick="passingYardsTeamOneMinus"/>
+            android:text="completion"/>
         <Button
-            android:id="@+id/team_one_qb_plus"
+            android:id="@+id/team_one_qb_incomplete"
             android:layout_width="0dp"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="+1"
             android:textSize="@dimen/small_font"
-            android:layout_weight="1"
-            android:onClick="passingYardsTeamOnePlus"/>
-        <Button
-            android:id="@+id/team_one_qb_plus_ten"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="+10"
-            android:textSize="@dimen/small_font"
-            android:layout_weight="1"
-            android:onClick="passingYardsTeamOneTenPlus"/>
+            android:text="incomplete"/>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/pass_short"
-            android:layout_marginLeft="@dimen/small_padding"
-            android:layout_marginRight="@dimen/small_padding"
-            android:textAllCaps="true"
-            android:textSize="@dimen/small_med_font"
-            android:layout_weight="1"
-            android:background="#22999999"
-            android:gravity="center"/>
         <Button
-            android:id="@+id/team_two_qb_minus"
+            android:id="@+id/team_two_qb_complete"
             android:layout_width="0dp"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="-1"
             android:textSize="@dimen/small_font"
-            android:layout_weight="1"
-            android:onClick="passingYardsTeamTwoMinus"/>
+            android:text="completion"/>
         <Button
-            android:id="@+id/team_two_qb_plus"
+            android:id="@+id/team_two_qb_incomplete"
             android:layout_width="0dp"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="+1"
             android:textSize="@dimen/small_font"
-            android:layout_weight="1"
-            android:onClick="passingYardsTeamTwoPlus"/>
+            android:text="incomplete"/>
+    </LinearLayout>
+    <!--BUTTONS FOR FUMBLE AND YARDAGE ADDITION-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
         <Button
-            android:id="@+id/team_two_qb_plus_ten"
+            android:id="@+id/team_one_qb_fumble"
+            android:onClick="fumbleClickTeamOne"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="+10"
+            android:text="fumble"
             android:textSize="@dimen/small_font"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/team_one_qb_interception"
+            android:onClick="interceptionClickTeamOne"
+            android:layout_width="0dp"
             android:layout_weight="1"
-            android:onClick="passingYardsTeamTwoTenPlus"/>
-
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="interception"/>
+        <Button
+            android:id="@+id/team_two_qb_fumble"
+            android:onClick="fumbleClickTeamTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="fumble"
+            android:textSize="@dimen/small_font"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/team_two_qb_interception"
+            android:onClick="interceptionClickTeamTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="interception"/>
     </LinearLayout>
 
-    <!--YARDAGE ADDITIONS FOR RUSHING ** HORIZONTAL-->
-    <LinearLayout
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="@dimen/small_med_padding"
+        android:background="#FFFFFF">
+    </View>
+
+    <!--BUTTONS FOR RUSHING STATISTICS-->
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
+        android:gravity="center_horizontal"
+        android:text="@string/rush_yd"
+        android:textSize="@dimen/med_large_font"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <Button
+            android:id="@+id/team_one_rb_attempt"
             android:layout_width="0dp"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="@string/rush_short"
-            android:layout_marginLeft="@dimen/small_padding"
-            android:layout_marginRight="@dimen/small_padding"
-            android:textAllCaps="true"
-            android:textSize="@dimen/small_med_font"
-            android:layout_weight="1"
-            android:background="#22999999"
-            android:gravity="center"/>
+            android:textSize="@dimen/small_font"
+            android:text="rush attempt"/>
+        <Button
+            android:id="@+id/team_one_rb_fumble"
+            android:onClick="fumbleClickTeamOne"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="fumble"/>
+        <Button
+            android:id="@+id/team_two_rb_attempt"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="rush attempt"/>
+
+        <Button
+            android:id="@+id/team_two_rb_fumble"
+            android:onClick="fumbleClickTeamTwo"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="fumble"/>
+    </LinearLayout>
+    <!--BUTTONS FOR FUMBLE AND YARDAGE ADDITION-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
         <Button
             android:id="@+id/team_one_rb_minus"
             android:layout_width="0dp"
@@ -455,17 +639,6 @@
             android:layout_weight="1"
             android:onClick="rushingYardsTeamOneTenPlus"/>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/rush_short"
-            android:layout_marginLeft="@dimen/small_padding"
-            android:layout_marginRight="@dimen/small_padding"
-            android:textAllCaps="true"
-            android:textSize="@dimen/small_med_font"
-            android:layout_weight="1"
-            android:background="#22999999"
-            android:gravity="center"/>
         <Button
             android:id="@+id/team_two_rb_minus"
             android:layout_width="0dp"
@@ -492,22 +665,62 @@
             android:onClick="rushingYardsTeamTwoTenPlus"/>
     </LinearLayout>
 
-    <!--YARDAGE ADDITIONS FOR RECEIVING ** HORIZONTAL-->
-    <LinearLayout
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="@dimen/small_med_padding"
+        android:background="#FFFFFF">
+    </View>
+
+    <!--BUTTONS FOR RECEIVING STATISTICS-->
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
+        android:gravity="center_horizontal"
+        android:text="@string/rec_yd"
+        android:textSize="@dimen/med_large_font"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <Button
+            android:id="@+id/team_one_wr_attempt"
             android:layout_width="0dp"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="@string/rec_short"
-            android:layout_marginLeft="@dimen/small_padding"
-            android:layout_marginRight="@dimen/small_padding"
-            android:textAllCaps="true"
-            android:textSize="@dimen/small_med_font"
-            android:layout_weight="1"
-            android:background="#22999999"
-            android:gravity="center"/>
+            android:textSize="@dimen/small_font"
+            android:text="target"/>
+        <Button
+            android:id="@+id/team_one_wr_fumble"
+            android:onClick="fumbleClickTeamOne"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="fumble"/>
+        <Button
+            android:id="@+id/team_two_wr_attempt"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="target"/>
+
+        <Button
+            android:id="@+id/team_two_wr_fumble"
+            android:onClick="fumbleClickTeamTwo"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_font"
+            android:text="fumble"/>
+    </LinearLayout>
+    <!--BUTTONS FOR FUMBLE AND YARDAGE ADDITION-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
         <Button
             android:id="@+id/team_one_wr_minus"
             android:layout_width="0dp"
@@ -533,17 +746,6 @@
             android:layout_weight="1"
             android:onClick="recievingYardsTeamOneTenPlus"/>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/rec_short"
-            android:layout_marginLeft="@dimen/small_padding"
-            android:layout_marginRight="@dimen/small_padding"
-            android:textAllCaps="true"
-            android:layout_weight="1"
-            android:textSize="@dimen/small_med_font"
-            android:background="#22999999"
-            android:gravity="center"/>
         <Button
             android:id="@+id/team_two_wr_minus"
             android:layout_width="0dp"
@@ -568,8 +770,9 @@
             android:textSize="@dimen/small_font"
             android:layout_weight="1"
             android:onClick="recievingYardsTeamTwoTenPlus"/>
-
     </LinearLayout>
+
+
 
 
 </LinearLayout>
